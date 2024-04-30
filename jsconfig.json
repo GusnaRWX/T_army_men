@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "module": "es2020",
+        "paths": {
+            "@/components/*": [
+                "client/components/*"
+            ],
+            "@/containers/*": [
+                "client/containers/*"
+            ],
+            "@/hooks/*": [
+                "client/hooks/*"
+            ],
+            "@/icons/*": [
+                "client/public/icons/*"
+            ],
+            "@/store/*": [
+                "client/store/*"
+            ],
+            "@/utils/*": [
+                "client/utils/*"
+            ],
+            "@/props/*": [
+                "client/props/*"
+            ]
+        }
+    }
+}
